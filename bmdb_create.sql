@@ -33,6 +33,7 @@ create table credit (
     CONSTRAINT act_mov unique (ActorID, MovieID)
     );
     
+
 -- DML Insert Movie Data
 
 insert into movie (id, title, year, rating, director) 
